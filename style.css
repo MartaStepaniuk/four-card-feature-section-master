@@ -1,0 +1,214 @@
+/*Обнулення*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+html {
+    font-size: 15px;
+}
+
+body {
+    background: hsl(0, 0%, 98%);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.delivery {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1,
+h2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 2.58rem;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 600;
+    padding: 0.67rem 0 1rem;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+    line-height: 23px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.cards--style {
+    background: #fff;
+    max-width: 23rem;
+    padding: 2rem;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px #D7E0EE;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.67rem;
+}
+
+.cards__paragraph {
+    font-size: 0.9rem;
+}
+
+img {
+    float: right;
+    margin-top: 1.67rem;
+}
+
+.cards__team-builder-and-karma {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.cards__team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 2rem;
+}
+
+.cards__karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.cards__calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 34.375rem) {
+
+    h1,
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards--style {
+        margin-bottom: 1.875rem;
+    }
+
+    .cards__team-builder-and-karma {
+        padding: 0;
+    }
+}
