@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-page-using-flexbox-bCyubGjRpQ)](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-page-using-flexbox-bCyubGjRpQ)
+- Live Site URL: [https://martastepaniuk.github.io/four-card-feature-section-master/](https://martastepaniuk.github.io/four-card-feature-section-master/)
 
 ## My process
 
